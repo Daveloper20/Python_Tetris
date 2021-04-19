@@ -202,7 +202,7 @@ BACKGROUND = (0, 0, 0)
 FOREGROUND = (255, 255, 255)
 GRAY = (128, 128, 128)
 
-if time.localtime().tm_hour < 17:
+if 7 < time.localtime().tm_hour < 17:
     BACKGROUND = (255, 255, 255)
     FOREGROUND = (0, 0, 0)
 
